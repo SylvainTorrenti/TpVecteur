@@ -15,6 +15,7 @@ Vector2D1.Equals2D(Vector2D2, Vector2D1);
 Console.WriteLine("-----------");
 Console.WriteLine();
 #endregion
+#region Vector 3D
 Console.WriteLine("             ****Vecteur 3D****");
 Console.WriteLine();
 Vector3D Vector3D1 = new Vector3D(1, 1, 1);
@@ -26,5 +27,6 @@ Console.WriteLine($"Le vector 2 est : {Vector3D2.ToString()}");
 Console.WriteLine($"La norme est : {Vector3D2.Norme()}");
 Console.WriteLine("-----------");
 Vector2D1.Equals2D(Vector3D2, Vector3D1);
-Console.WriteLine("-----------");
+Console.WriteLine("-----------"); 
+#endregion
 

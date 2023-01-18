@@ -11,7 +11,7 @@ namespace TpVecteur
         #region Attribute
         private int _rating;
         #endregion
-        #region get & Set Rating
+        #region Get & Set Rating
         public int Rating { get => _rating; set => _rating = value; }
         #endregion
         #region Constructor
