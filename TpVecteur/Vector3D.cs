@@ -8,10 +8,13 @@ namespace TpVecteur
 {
     internal class Vector3D : Vector2D
     {
+        #region Attribute
         private int _rating;
-
+        #endregion
+        #region get & Set Rating
         public int Rating { get => _rating; set => _rating = value; }
-
+        #endregion
+        #region Constructor
         public Vector3D()
         {
             NbVector += 1;
@@ -28,6 +31,8 @@ namespace TpVecteur
             Rating = vector3D.Rating;
             NbVector += 1;
         }
+        #endregion
+        #region Method
         public string ToString()
         {
             return $"X = {Abscissa}  Y = {Ordered}  Z={Rating}";
@@ -45,9 +50,10 @@ namespace TpVecteur
             }
             else
             {
-                Console.WriteLine("Les deux vecteur ne sont pas identique");
+                Console.WriteLine("Les deux vecteur ne sont pas identiques");
                 return false;
             }
-        }
+        } 
+        #endregion
     }
 }
